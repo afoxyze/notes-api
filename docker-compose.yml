@@ -1,6 +1,6 @@
 services:
   app:
-    build: .
+    image: ghcr.io/afoxyze/notes-api:latest
     ports:
       - "8000:8000"
     environment:
