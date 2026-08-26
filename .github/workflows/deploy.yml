@@ -25,7 +25,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           Context: .
-          push:
+          push: true
           tags: ghcr.io.afoxyze/notes-api:latest
 
       - name: Deploy to VPS
