@@ -35,6 +35,6 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd ~/notes_api
+            cd ~/notes-api
             docker compose pull
             docker compose up -d
